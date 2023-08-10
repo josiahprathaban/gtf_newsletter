@@ -1,10 +1,7 @@
 const routes = {
   404: "/pages/404.html",
   "": "/pages/index.html",
-  "#about": "/pages/about.html",
-  "#docs": "/pages/docs.html",
-  "#article": "/pages/article.html",
-  "#category": "/pages/category.html",
+  "#2023-july": "/pages/2023-july.html",
 };
 
 const handleRouteChange = async () => {
