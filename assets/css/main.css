@@ -14190,6 +14190,25 @@ ol.list-featured li:before {
   }
 }
 
+@media print {
+  body * {
+    visibility: hidden;
+    -webkit-print-color-adjust: exact !important;
+  }
+
+  #print * {
+    visibility: visible !important;
+  }
+
+  .print-on-new-page {
+    page-break-before: always;
+  }
+
+  .dont-print {
+    display: none;
+  }
+}
+
 article {
   font-family: "sans-serif", "Georgia";
   font-size: 16px;
@@ -14203,12 +14222,15 @@ ul {
 
 li {
   position: relative;
-  padding-left: 20px; /* Adjust as needed */
-  margin-bottom: 10px; /* Adjust as needed */
+  padding-left: 20px;
+  /* Adjust as needed */
+  margin-bottom: 10px;
+  /* Adjust as needed */
 }
 
 li::before {
-  content: "\2014"; /* Unicode character for em dash (—) */
+  content: "\2014";
+  /* Unicode character for em dash (—) */
   position: absolute;
   left: 0;
 }
