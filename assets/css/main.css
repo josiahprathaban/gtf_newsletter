@@ -14215,6 +14215,15 @@ article {
   line-height: 1.7;
 }
 
+.eng-txt{
+  font-family: "sans-serif", "Georgia";
+}
+
+.sermon{
+  background-color: #fff7eb;
+  padding: 10px;
+}
+
 ul {
   list-style: none;
   padding: 0;
