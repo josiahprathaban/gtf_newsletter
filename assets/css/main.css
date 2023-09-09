@@ -14224,6 +14224,10 @@ article {
   padding: 10px;
 }
 
+.scripture{
+  font-style: italic;
+}
+
 ul {
   list-style: none;
   padding: 0;
