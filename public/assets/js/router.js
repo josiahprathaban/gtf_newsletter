@@ -12,6 +12,10 @@ const handleRouteChange = async () => {
   const route = routes[path] || routes[404];
   const html = await fetch(route).then((data) => data.text());
   document.getElementById("content").innerHTML = html;
+  window.scrollTo({
+    top: 0,
+    // behavior: 'smooth' // This makes the scrolling smooth
+});
   checkLanguage();
 };
 
