@@ -14274,11 +14274,11 @@ article p {
   text-align: justify;
   hyphens: auto;
 }
-/* 
+
 article p.tamil-content {
   text-align: left;
-  word-break: break-all;
-} */
+  /* word-break: break-all; */
+}
 
 article blockquote {
   padding-left: 40px;
