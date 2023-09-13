@@ -14228,6 +14228,14 @@ article {
   font-style: italic;
 }
 
+.scripture-num{
+  color: blueviolet;
+  font-weight: bold;
+  font-style: normal;
+  vertical-align: super;
+  font-size: small;
+}
+
 ul {
   list-style: none;
   padding: 0;
