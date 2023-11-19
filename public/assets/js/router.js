@@ -5,6 +5,7 @@ const routes = {
   "#2023-august": "pages/2023-august.html",
   "#2022-may": "pages/2022-may.html",
   "#2021-november": "pages/2021-november.html",
+  "#2023-october": "pages/2023-october.html",
 };
 
 const handleRouteChange = async () => {
